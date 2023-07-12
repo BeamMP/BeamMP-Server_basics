@@ -1,6 +1,6 @@
 function onInit()
 	print("NoGuests v1.0-basic Ready")
-	RegisterEvent("onPlayerAuth","onPlayerAuth")
+	MP.RegisterEvent("onPlayerAuth","onPlayerAuth")
 end
 
 function onPlayerAuth(name, role, isGuest)
